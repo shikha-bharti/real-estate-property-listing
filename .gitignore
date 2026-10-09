@@ -2,7 +2,9 @@
 __pycache__/
 *.py[codz]
 *$py.class
-
+!.env.example
+__pycache__/
+*.py[cod]
 # C extensions
 *.so
 
@@ -148,6 +150,10 @@ activemq-data/
 
 # SageMath parsed files
 *.sage.py
+.env
+.env.*
+
+.venv/
 
 # Environments
 .env
